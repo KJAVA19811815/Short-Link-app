@@ -3,6 +3,8 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import { Router, Route, browserHistory } from "react-router";
 
+window.browserHistory = browserHistory;
+
 import Signup from "../imports/ui/Signup";
 import Link from "../imports/ui/Link";
 import Login from "../imports/ui/Login";
